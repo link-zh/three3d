@@ -9,6 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "jthreebsp": "^1.0.0",
+    "three": "^0.107.0",
+    "three-js-csg": "^72.0.0",
+    "three-trackballcontrols": "^0.9.0",
+    "tween": "^0.9.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
