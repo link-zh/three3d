@@ -1,0 +1,298 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.6.16",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Light",
+      "rotation": [
+        0.16907575726509094,
+        0.7558803558349609,
+        -0.27217137813568115,
+        0.570947527885437
+      ],
+      "translation": [
+        4.076245307922363,
+        5.903861999511719,
+        -1.0054539442062378
+      ]
+    },
+    {
+      "name": "Camera",
+      "rotation": [
+        0.5194250345230103,
+        -0.14036254584789276,
+        0.08695945143699646,
+        0.8384116291999817
+      ],
+      "translation": [
+        6.808891296386719,
+        8.808309555053711,
+        7.865790843963623
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Plane.001",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071067094802856
+      ],
+      "translation": [
+        0.0000022172928311192663,
+        0,
+        0
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Plane.001Action",
+      "samplers": [
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 9
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "tape",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.4699999988079071,
+          0.36000001430511475,
+          0.27000001072883606,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.7018576264381409
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "cardboard",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "cardboard-box-texture",
+      "uri": "cube02_img0.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        27.511131286621094,
+        2.8225386142730713,
+        23.810224533081055
+      ],
+      "min": [
+        -27.491456985473633,
+        -2.7320632934570312,
+        -6.221808433532715
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 248,
+      "max": [
+        27.450603485107422,
+        17.556371688842773,
+        23.776905059814453
+      ],
+      "min": [
+        -27.413633346557617,
+        -17.43952751159668,
+        -6.230648994445801
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 248,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 248,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 372,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 250,
+      "max": [
+        10.416666666666666
+      ],
+      "min": [
+        0.041666666666666664
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 250,
+      "type": "VEC4"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 288
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 576
+    },
+    {
+      "buffer": 0,
+      "byteLength": 72,
+      "byteOffset": 768
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2976,
+      "byteOffset": 840
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2976,
+      "byteOffset": 3816
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1984,
+      "byteOffset": 6792
+    },
+    {
+      "buffer": 0,
+      "byteLength": 744,
+      "byteOffset": 8776
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1000,
+      "byteOffset": 9520
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4000,
+      "byteOffset": 10520
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "cube02_data.bin",
+      "byteLength": 14520
+    }
+  ]
+}

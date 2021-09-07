@@ -1,0 +1,276 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.6.16",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "CAJA CARTON",
+      "translation": [
+        0,
+        0.5082219243049622,
+        0
+      ]
+    },
+    {
+      "name": "Lamp",
+      "rotation": [
+        0.16907575726509094,
+        0.7558803558349609,
+        -0.27217137813568115,
+        0.570947527885437
+      ],
+      "translation": [
+        4.076245307922363,
+        5.903861999511719,
+        -1.0054539442062378
+      ]
+    },
+    {
+      "name": "Camera",
+      "rotation": [
+        0.4817090630531311,
+        0.3342534601688385,
+        -0.21292366087436676,
+        0.7815974354743958
+      ],
+      "translation": [
+        2.919487237930298,
+        2.3865818977355957,
+        2.6837122440338135
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "CAJA CARTONAction",
+      "samplers": [
+        {
+          "input": 6,
+          "interpolation": "LINEAR",
+          "output": 7
+        },
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 9
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "CARTON",
+      "pbrMetallicRoughness": {}
+    },
+    {
+      "doubleSided": true,
+      "name": "PEGATINA ",
+      "pbrMetallicRoughness": {}
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 204,
+      "max": [
+        0.6747599244117737,
+        0.49945229291915894,
+        0.5026112198829651
+      ],
+      "min": [
+        -0.6225658655166626,
+        -0.5026259422302246,
+        -0.5013018250465393
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 204,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 312,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.4984387755393982,
+        0.4973743259906769,
+        0.49968960881233215
+      ],
+      "min": [
+        -0.501561164855957,
+        -0.5026259422302246,
+        0.4996894598007202
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 101,
+      "max": [
+        4.166666666666667
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 101,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 51,
+      "max": [
+        2.0833333333333335
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 51,
+      "type": "VEC4"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2448,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2448,
+      "byteOffset": 2448
+    },
+    {
+      "buffer": 0,
+      "byteLength": 624,
+      "byteOffset": 4896
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 5520
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 5568
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 5616
+    },
+    {
+      "buffer": 0,
+      "byteLength": 404,
+      "byteOffset": 5628
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1212,
+      "byteOffset": 6032
+    },
+    {
+      "buffer": 0,
+      "byteLength": 204,
+      "byteOffset": 7244
+    },
+    {
+      "buffer": 0,
+      "byteLength": 816,
+      "byteOffset": 7448
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "cube_data.bin",
+      "byteLength": 8264
+    }
+  ]
+}
